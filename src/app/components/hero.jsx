@@ -1,10 +1,11 @@
+import { LucideArrowDown } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 export default function Hero() {
   return (
-    <div className="bg-image min-h-[90vh] w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto min-h-[90vh]">
+    <div className="bg-image bg-secondary text-primary relative min-h-screen w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto min-h-screen">
         <div className="mx-4 flex flex-col justify-center z-40">
           <h1 className="text-3xl font-bold md:text-6xl ">
             Looking for <span className="text-accent">cars on rent</span> and to{" "}
@@ -23,6 +24,9 @@ export default function Hero() {
         <div className="hidden md:flex justify-center items-center z-40">
           <Image src="/car.png" alt="a white car" width={800} height={300} />
         </div>
+      </div>
+      <div className="absolute left-1/2 -translate-x-1/2 bottom-8 animate-bounce [animation-duration:1500ms] bottom-4">
+        <LucideArrowDown className="scale-125 md:scale-150" />
       </div>
     </div>
   )

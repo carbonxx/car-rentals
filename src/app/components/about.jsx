@@ -1,31 +1,62 @@
+import Timeline from "@/app/components/timeline"
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
+import React from "react"
 
 function About() {
   return (
-    <div className="w-full bg-accent py-24">
-      <h1 className="text-3xl font-bold md:text-6xl text-center text-secondary">
-        Our Cars
-      </h1>
-      <div className="container mx-auto py-16">
-        <div className="card w-96 bg-base-100 shadow-xl">
-          <figure>
-            <Image
-              src="https://source.unsplash.com/400x300/random?cars"
-              width={400}
-              height={300}
-              alt="Cars"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-  ">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+    <section className="bg-white text-primary py-24" id="about">
+      <h2 className="font-bold text-center text-primary text-4xl tracking-tight sm:text-5xl">
+        About Us
+      </h2>
+      <div className="container px-4 mx-auto grid md:grid-cols-2 gap-8 py-16">
+        <div className="relative w-full md:w-3/4 aspect-square mx-auto flex justify-center items-center">
+          <Image
+            src="https://source.unsplash.com/random?travel"
+            alt="Ganesh Self Driving Cars"
+            fill
+            className="h-96 w-full object-cover rounded-lg"
+          />
+        </div>
+        <div className="flex flex-col gap-8 items-center md:justify-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+            fuga recusandae consequuntur eveniet a tenetur aliquam. Minima
+            asperiores deleniti saepe iure officiis repudiandae doloremque ea.
+            Consectetur voluptas velit nam voluptates enim blanditiis temporibus
+            vitae quasi cumque fugit provident ex eaque repellendus quis, beatae
+            animi quam natus harum laudantium consequatur reiciendis!
+          </p>
+          <Timeline />
+          <div className="flex flex-col gap-2">
+            <p className="text-center">Reach out on our socials:</p>
+            <ul className="flex gap-8">
+              <li>
+                <Link href="#">
+                  <Twitter />
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <Instagram />
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <Facebook />
+                </Link>
+              </li>
+              <li>
+                <Link href="#">
+                  <Youtube />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

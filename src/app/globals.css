@@ -16,6 +16,10 @@
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -26,19 +30,20 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.bg-image {
-  background-color: #e5e7e2;
-  color: #13201b;
-}
-
 .bg-image::after {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   background-color: #004e98;
-  height: 90%;
+  height: 100%;
   width: 33.33%;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-image::after {
+    display: none;
+  }
 }
 
 @layer utilities {
@@ -46,3 +51,7 @@ body {
     text-wrap: balance;
   }
 }
+
+/* * {[
+outline: 1px solid red;
+}] */
