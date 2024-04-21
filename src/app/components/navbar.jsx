@@ -96,7 +96,7 @@ export default function Navbar() {
               <p className="flex gap-2">
                 <Mail />
                 <Link href={`mailto:${email}`} className="underline">
-                  {email}
+                  {email.split("@")[0]}
                 </Link>
               </p>
               <ul className="flex gap-4 mt-4">
