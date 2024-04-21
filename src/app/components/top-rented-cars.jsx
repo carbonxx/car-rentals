@@ -1,5 +1,6 @@
 import { topRentedCars } from "@/app/lib/top-rented"
 import Image from "next/image"
+import Link from "next/link"
 
 function TopRentedCars() {
   return (
@@ -22,19 +23,19 @@ function TopRentedCars() {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Car 1</h2>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
-                ex.
-              </p>
+              <h2 className="card-title">{car.title}</h2>
+              <p>{car.description}</p>
               <div className="py-2 flex gap-2 flex-wrap">
-                <div className="badge badge-outline">feature</div>
-                <div className="badge badge-outline">feature</div>
-                <div className="badge badge-outline">feature</div>
-                <div className="badge badge-outline">feature</div>
+                {car.features.map((feature) => (
+                  <div className="badge badge-outline" key={feature}>
+                    {feature}
+                  </div>
+                ))}
               </div>
               <div className="card-actions justify-end pt-2">
-                <button className="btn btn-primary w-full">Book now</button>
+                <Link href="/cars" className="w-full">
+                  <button className="btn btn-primary w-full">Book now</button>
+                </Link>
               </div>
             </div>
           </div>

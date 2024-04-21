@@ -18,6 +18,7 @@
 
 * {
   scroll-behavior: smooth;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -51,7 +52,3 @@ body {
     text-wrap: balance;
   }
 }
-
-/* * {[
-outline: 1px solid red;
-}] */

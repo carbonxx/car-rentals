@@ -1,26 +1,30 @@
 export const topRentedCars = [
   {
     id: 1,
-    name: "Car 1",
+    name: "Toyota Corolla",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ex.",
-    features: ["feature", "feature", "feature", "feature"],
+      "The Toyota Corolla is a reliable and comfortable sedan suitable for family trips.",
+    features: ["Automatic Transmission", "GPS Navigation", "Spacious Interior"],
     image: "https://source.unsplash.com/random?cars",
   },
   {
     id: 2,
-    name: "Car 2",
+    name: "Ford Explorer",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ex.",
-    features: ["feature", "feature", "feature", "feature"],
+      "The Ford Explorer is a powerful and spacious SUV with excellent off-road capabilities.",
+    features: ["All-Wheel Drive", "Leather Seats", "Sunroof"],
     image: "https://source.unsplash.com/random?cars",
   },
   {
     id: 3,
-    name: "Car 3",
+    name: "Mercedes-Benz S-Class",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ex.",
-    features: ["feature", "feature", "feature", "feature"],
+      "The Mercedes-Benz S-Class is the epitome of luxury with unparalleled comfort, cutting-edge technology, and exquisite craftsmanship.",
+    features: [
+      "Luxury Seats",
+      "Advanced Assistance Systems",
+      "Panoramic Sunroof",
+    ],
     image: "https://source.unsplash.com/random?cars",
   },
 ]
