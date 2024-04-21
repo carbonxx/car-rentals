@@ -1,0 +1,6 @@
+export const email = "mangaloreselfdriverentalcars@gmail.com"
+export const phone = "1234567890"
+export const instagram = "#"
+export const twitter = "#"
+export const facebook = "#"
+export const youtube = "#"

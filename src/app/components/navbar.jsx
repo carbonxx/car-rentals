@@ -1,8 +1,27 @@
+"use client"
+
+import ContactUs from "@/app/components/contact-us-modal"
+import {
+  email,
+  facebook,
+  instagram,
+  phone,
+  twitter,
+  youtube,
+} from "@/app/lib/config"
+import {
+  Facebook,
+  Instagram,
+  Mail,
+  Phone,
+  Twitter,
+  Youtube,
+} from "lucide-react"
 import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <nav className="drawer">
+    <nav className="fixed z-50 top-0 drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
@@ -34,7 +53,7 @@ export default function Navbar() {
             </p>
           </div>
           <div className="flex-none hidden lg:block">
-            <ul className="menu menu-horizontal">
+            <ul className="menu menu-horizontal items-center">
               {/* Navbar menu content here */}
               <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
                 <Link href="/">Home</Link>
@@ -42,9 +61,7 @@ export default function Navbar() {
               <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
                 <Link href="/cars">Cars</Link>
               </li>
-              <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
-                <Link href="#contact">Contact us</Link>
-              </li>
+              <ContactUs />
             </ul>
           </div>
         </div>
@@ -64,12 +81,48 @@ export default function Navbar() {
           <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
             <Link href="/home">Home</Link>
           </li>
-          <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
+          <li className="cursor-pointer hover:underline underline-offset-4 transition-all mb-4">
             <Link href="/cars">Cars</Link>
           </li>
-          <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
-            <Link href="#contact">Contact us</Link>
-          </li>
+          <div className="mt-4">
+            <h3 className="font-bold text-lg">Contact us to book cars!</h3>
+            <div className="my-4 flex flex-col gap-2">
+              <p className="flex gap-2">
+                <Phone />
+                <Link href={`tel:${phone}`} className="underline">
+                  +91 {phone}
+                </Link>
+              </p>
+              <p className="flex gap-2">
+                <Mail />
+                <Link href={`mailto:${email}`} className="underline">
+                  {email}
+                </Link>
+              </p>
+              <ul className="flex gap-4 mt-4">
+                <li>
+                  <Link href={twitter}>
+                    <Twitter />
+                  </Link>
+                </li>
+                <li>
+                  <Link href={instagram}>
+                    <Instagram />
+                  </Link>
+                </li>
+                <li>
+                  <Link href={facebook}>
+                    <Facebook />
+                  </Link>
+                </li>
+                <li>
+                  <Link href={youtube}>
+                    <Youtube />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>{" "}
           <aside className="mt-auto mx-4 flex gap-2 flex-col">
             <svg
               width="50"

@@ -16,10 +16,10 @@ export default function CarsPage() {
               </h2>
               <p className="text-lg">{car_category.description}</p>
             </div>
-            <div className="grid md:grid-cols-1 gap-x-4 gap-y-8">
+            <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8">
               {car_category.cars.map((car) => (
                 <div
-                  className="card grid md:grid-cols-[30%_1fr_1fr] card-side bg-base-100 shadow-xl text-primary"
+                  className="card bg-base-100 shadow-xl text-primary"
                   key={car.id}
                 >
                   <figure className="relative pt-4 w-full aspect-[4/3] rounded-none rounded-tl-2xl rounded-tr-2xl md:rounded-tr-none md:rounded-bl-2xl ">
@@ -32,6 +32,9 @@ export default function CarsPage() {
                   </figure>
                   <div className="card-body">
                     <h2 className="card-title">{car.name}</h2>
+                    <p className="text-3xl font-bold">
+                      &#8377; {car.rate} / day
+                    </p>
                     <p>{car.description}</p>
                     <div className="py-2 flex gap-2 flex-wrap">
                       {car.features.map((feature) => (
@@ -39,19 +42,6 @@ export default function CarsPage() {
                           {feature}
                         </div>
                       ))}
-                    </div>
-                  </div>
-                  <div className="card-body">
-                    <div>
-                      <p className="card-title">Rate</p>
-                      <p className="text-3xl font-bold">
-                        &#8377; {car.rate} / day
-                      </p>
-                    </div>
-                    <div className="card-actions mt-auto justify-end pt-2">
-                      <button className="btn btn-primary w-full">
-                        Book now
-                      </button>
                     </div>
                   </div>
                 </div>

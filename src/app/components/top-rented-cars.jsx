@@ -32,11 +32,6 @@ function TopRentedCars() {
                   </div>
                 ))}
               </div>
-              <div className="card-actions justify-end pt-2">
-                <Link href="/cars" className="w-full">
-                  <button className="btn btn-primary w-full">Book now</button>
-                </Link>
-              </div>
             </div>
           </div>
         ))}

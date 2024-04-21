@@ -1,4 +1,5 @@
 import Timeline from "@/app/components/timeline"
+import { facebook, instagram, twitter, youtube } from "@/app/lib/config"
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -33,22 +34,22 @@ function About() {
             <p className="text-center">Reach out on our socials:</p>
             <ul className="flex gap-8">
               <li>
-                <Link href="#">
+                <Link href={twitter}>
                   <Twitter />
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href={instagram}>
                   <Instagram />
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href={facebook}>
                   <Facebook />
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href={youtube}>
                   <Youtube />
                 </Link>
               </li>

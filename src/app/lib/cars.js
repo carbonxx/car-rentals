@@ -30,7 +30,28 @@ export const cars = [
           "Spacious Interior",
         ],
       },
-      // Add more cars as needed
+      {
+        id: 3,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Volkswagen Jetta",
+        rate: 1900,
+        description:
+          "Sleek and stylish sedan with a refined interior and responsive handling.",
+        features: ["Apple CarPlay", "Android Auto", "Blind Spot Monitor"],
+      },
+      {
+        id: 4,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Mazda6",
+        rate: 2100,
+        description:
+          "Sporty sedan offering a blend of performance, comfort, and fuel efficiency.",
+        features: [
+          "i-ACTIVSENSE Safety Technologies",
+          "BOSE Premium Audio",
+          "Mazda Radar Cruise Control",
+        ],
+      },
     ],
   },
   {
@@ -39,24 +60,53 @@ export const cars = [
       "Spacious and versatile sport utility vehicles (SUVs) capable of handling various terrains and accommodating larger groups or families.",
     cars: [
       {
-        id: 3,
+        id: 5,
         image: "https://source.unsplash.com/random?cars",
-        name: "Ford Explorer",
-        rate: 3000,
+        name: "Toyota RAV4",
+        rate: 2700,
         description:
-          "A powerful and spacious SUV with excellent off-road capabilities.",
-        features: ["All-Wheel Drive", "Leather Seats", "Sunroof"],
+          "Popular compact SUV known for its reliability, fuel efficiency, and safety features.",
+        features: ["Toyota Safety Sense 2.0", "Apple CarPlay", "Android Auto"],
       },
       {
-        id: 4,
+        id: 6,
         image: "https://source.unsplash.com/random?cars",
-        name: "Jeep Wrangler",
-        rate: 2500,
+        name: "Honda CR-V",
+        rate: 2900,
         description:
-          "Iconic off-road vehicle with rugged design and versatile capabilities.",
-        features: ["Removable Top", "4x4 Drive", "Trail Rated"],
+          "Comfortable and versatile SUV with a spacious cabin and strong safety ratings.",
+        features: [
+          "Honda Sensing Suite",
+          "Hands-Free Access Power Tailgate",
+          "Wireless Phone Charger",
+        ],
       },
-      // Add more cars as needed
+      {
+        id: 7,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Subaru Forester",
+        rate: 2800,
+        description:
+          "Adventure-ready crossover with spacious interior and standard all-wheel drive.",
+        features: [
+          "Driver Assist Technology",
+          "8.7 inches of Ground Clearance",
+          "Harman Kardon Audio System",
+        ],
+      },
+      {
+        id: 8,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Kia Sportage",
+        rate: 2600,
+        description:
+          "Stylish and agile SUV offering a comfortable ride and modern features.",
+        features: [
+          "UVO Link Infotainment System",
+          "Wireless Charging",
+          "Smart Power Liftgate",
+        ],
+      },
     ],
   },
   {
@@ -65,27 +115,57 @@ export const cars = [
       "Comfortable and reliable taxis for hire, suitable for airport transfers, city tours, and long-distance travel.",
     cars: [
       {
-        id: 5,
+        id: 9,
         image: "https://source.unsplash.com/random?cars",
-        name: "Toyota Innova",
-        rate: 2500,
+        name: "Hyundai Verna",
+        rate: 1700,
         description:
-          "A spacious and comfortable taxi suitable for long journeys.",
+          "Compact sedan taxi with a refined interior and smooth ride quality.",
         features: [
-          "Multiple Seating Configuration",
-          "Ample Luggage Space",
-          "Entertainment System",
+          "Wireless Phone Charger",
+          "Connected Car Technology",
+          "Electric Sunroof",
         ],
       },
       {
-        id: 6,
+        id: 10,
         image: "https://source.unsplash.com/random?cars",
-        name: "Maruti Suzuki Dzire",
-        rate: 1800,
-        description: "Compact and fuel-efficient taxi ideal for city tours.",
-        features: ["Fuel Efficiency", "Easy Maneuverability", "Economical"],
+        name: "Honda Amaze",
+        rate: 1650,
+        description:
+          "Efficient and comfortable sedan taxi ideal for urban travel.",
+        features: [
+          "Diesel Engine Option",
+          "Touchscreen Infotainment System",
+          "Rear Parking Sensors",
+        ],
       },
-      // Add more cars as needed
+      {
+        id: 11,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Tata Tigor",
+        rate: 1600,
+        description:
+          "Budget-friendly sedan taxi with ample space and low running costs.",
+        features: [
+          "Fuel-Efficient Diesel Engine",
+          "Comfortable Seating",
+          "Large Boot Space",
+        ],
+      },
+      {
+        id: 12,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Mahindra Verito",
+        rate: 1750,
+        description:
+          "Spacious sedan taxi offering reliability and comfort for passengers.",
+        features: [
+          "Dual Front Airbags",
+          "ABS with EBD",
+          "Remote Central Locking",
+        ],
+      },
     ],
   },
   {
@@ -94,32 +174,57 @@ export const cars = [
       "Premium luxury cars offering top-of-the-line comfort, style, and performance for those seeking an elite driving experience.",
     cars: [
       {
-        id: 7,
+        id: 13,
         image: "https://source.unsplash.com/random?cars",
-        name: "Mercedes-Benz S-Class",
-        rate: 5000,
+        name: "Audi A6",
+        rate: 4500,
         description:
-          "The epitome of luxury with unparalleled comfort, cutting-edge technology, and exquisite craftsmanship.",
+          "Luxurious sedan with advanced technology and refined interior.",
         features: [
-          "Luxury Leather Seats",
-          "Advanced Driver Assistance Systems",
-          "Panoramic Sunroof",
+          "Virtual Cockpit",
+          "MMI Navigation Plus",
+          "Audi Pre Sense Basic",
         ],
       },
       {
-        id: 8,
+        id: 14,
         image: "https://source.unsplash.com/random?cars",
-        name: "BMW 7 Series",
-        rate: 4800,
+        name: "Lexus ES",
+        rate: 4700,
         description:
-          "A luxurious sedan combining elegance with dynamic performance and innovative features.",
+          "Elegant and comfortable sedan known for its reliability and luxury features.",
         features: [
-          "Gesture Control",
-          "Executive Lounge Seating",
-          "Harman Kardon Surround Sound System",
+          "Lexus Enform App Suite",
+          "Panoramic Glass Roof",
+          "Heated and Ventilated Seats",
         ],
       },
-      // Add more cars as needed
+      {
+        id: 15,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Volvo S90",
+        rate: 4800,
+        description:
+          "Sophisticated and safe luxury sedan with Scandinavian design and innovative technology.",
+        features: [
+          "Collision Avoidance Technology",
+          "Sensus Touchscreen",
+          "Bowers & Wilkins Premium Sound",
+        ],
+      },
+      {
+        id: 16,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Genesis G80",
+        rate: 4600,
+        description:
+          "Luxurious sedan offering a blend of comfort, performance, and value.",
+        features: [
+          "Lexicon Premium Audio System",
+          "Adaptive Cruise Control",
+          "Smart Cruise Control",
+        ],
+      },
     ],
   },
   {
@@ -128,32 +233,57 @@ export const cars = [
       "Environmentally friendly electric cars offering zero-emission driving with advanced technology and futuristic design.",
     cars: [
       {
-        id: 9,
+        id: 17,
         image: "https://source.unsplash.com/random?cars",
-        name: "Tesla Model S",
-        rate: 4000,
+        name: "Chevrolet Bolt EV",
+        rate: 3200,
         description:
-          "An electric sedan with groundbreaking performance, long-range capability, and autopilot features.",
+          "Affordable electric hatchback with a long-range and spacious interior.",
         features: [
-          "Autopilot",
-          "Over-the-Air Software Updates",
-          "Large Touchscreen Display",
+          "Chevrolet Infotainment 3 System",
+          "DC Fast Charging Capability",
+          "Regen on Demand™",
         ],
       },
       {
-        id: 10,
+        id: 18,
         image: "https://source.unsplash.com/random?cars",
-        name: "Nissan Leaf",
-        rate: 3000,
+        name: "Hyundai Kona Electric",
+        rate: 3500,
         description:
-          "A compact electric car offering practicality, efficiency, and advanced safety features.",
+          "Compact electric SUV offering impressive range, performance, and features.",
         features: [
-          "ProPILOT Assist",
-          "e-Pedal for One-Pedal Driving",
-          "NissanConnect EV Telematics System",
+          "Bluelink® Connected Car Services",
+          "Smart Cruise Control",
+          "Heads-Up Display",
         ],
       },
-      // Add more cars as needed
+      {
+        id: 19,
+        image: "https://source.unsplash.com/random?cars",
+        name: "Kia Soul EV",
+        rate: 3300,
+        description:
+          "Funky and practical electric vehicle with a spacious cabin and advanced tech.",
+        features: [
+          "10.25-inch Touchscreen Display",
+          "Wireless Phone Charger",
+          "Driver Attention Warning",
+        ],
+      },
+      {
+        id: 20,
+        image: "https://source.unsplash.com/random?cars",
+        name: "BMW i3",
+        rate: 3800,
+        description:
+          "Distinctive electric hatchback with a luxurious interior and agile handling.",
+        features: [
+          "Carbon Fiber Reinforced Plastic",
+          "Navigation System Professional",
+          "ConnectedDrive Services",
+        ],
+      },
     ],
   },
   // Add more categories as needed
