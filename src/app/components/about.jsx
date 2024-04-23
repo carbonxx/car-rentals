@@ -14,7 +14,7 @@ function About() {
       <div className="container px-4 mx-auto grid md:grid-cols-2 gap-8 py-16">
         <div className="relative w-full md:w-3/4 aspect-square mx-auto flex justify-center items-center">
           <Image
-            src="https://source.unsplash.com/random?travel"
+            src="/about-img.jpg"
             alt="Ganesh Self Driving Cars"
             fill
             className="h-96 w-full object-cover rounded-lg"

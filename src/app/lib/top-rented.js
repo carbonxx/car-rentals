@@ -1,30 +1,41 @@
 export const topRentedCars = [
   {
-    id: 1,
-    name: "Toyota Corolla",
+    id: 11,
+    image: "/cars/toyota-innova.png",
+    name: "Toyota Innova",
+    rate: 4200,
     description:
-      "The Toyota Corolla is a reliable and comfortable sedan suitable for family trips.",
-    features: ["Automatic Transmission", "GPS Navigation", "Spacious Interior"],
-    image: "https://source.unsplash.com/random?cars",
-  },
-  {
-    id: 2,
-    name: "Ford Explorer",
-    description:
-      "The Ford Explorer is a powerful and spacious SUV with excellent off-road capabilities.",
-    features: ["All-Wheel Drive", "Leather Seats", "Sunroof"],
-    image: "https://source.unsplash.com/random?cars",
-  },
-  {
-    id: 3,
-    name: "Mercedes-Benz S-Class",
-    description:
-      "The Mercedes-Benz S-Class is the epitome of luxury with unparalleled comfort, cutting-edge technology, and exquisite craftsmanship.",
+      "Legendary MPV known for its reliability, comfort, and versatility, suitable for family trips and business travel.",
     features: [
-      "Luxury Seats",
-      "Advanced Assistance Systems",
-      "Panoramic Sunroof",
+      "Dual-tone Alloy Wheels",
+      "Automatic Climate Control",
+      "Hill Start Assist Control",
     ],
-    image: "https://source.unsplash.com/random?cars",
+  },
+  {
+    id: 8,
+    image: "/cars/scross.png",
+    name: "SCross",
+    rate: 3200,
+    description:
+      "Premium crossover with a spacious interior, refined styling, and dynamic performance, suitable for both city and highway driving.",
+    features: [
+      "Smart Hybrid Technology",
+      "Rear Parking Camera",
+      "Apple CarPlay and Android Auto Compatibility",
+    ],
+  },
+  {
+    id: 10,
+    image: "/cars/tata-tiago.png",
+    name: "Tata Tiago",
+    rate: 2600,
+    description:
+      "Stylish hatchback with attractive design, spacious cabin, and peppy performance, perfect for urban commuting.",
+    features: [
+      "Harman Music System",
+      "Dual Airbags",
+      "Follow-me-home Headlamps",
+    ],
   },
 ]

@@ -25,7 +25,9 @@ export default function Footer() {
         <p>
           Ganesh Self Driving Cars
           <br />
-          Providing services since XXXX
+          Near KRR Road, Karangalapady,
+          <br />
+          Bunts Hostel, Mangaluru - 575003
         </p>
       </aside>
       <nav>
@@ -56,7 +58,7 @@ export default function Footer() {
         </Link>
       </nav>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124301.4492997785!2d77.55445729726564!3d13.198909000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1cfe75446265%3A0x296c70e9a129418e!2sKempegowda%20International%20Airport%20Bengaluru!5e0!3m2!1sen!2sin!4v1713684907737!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d971.0705846197169!2d74.8469182756404!3d12.87645346348676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNear%20KRR%20Road%2C%20Karangalapady%2C%20Bunts%20Hostel%2C%20Mangaluru%20-%20575003!5e0!3m2!1sen!2sin!4v1713886740984!5m2!1sen!2sin"
         width="100%"
         height="350"
         allowfullscreen=""

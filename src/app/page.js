@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      {/* <div className="py-4 text-xl">Self Driving Cars at Mangalore</div> */}
       <About />
       <HowItWorks />
       <OurCars />

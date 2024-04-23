@@ -15,12 +15,7 @@ function TopRentedCars() {
             key={car.id}
           >
             <figure className="relative pt-4 w-full aspect-[4/3]">
-              <Image
-                src="https://source.unsplash.com/random?cars"
-                fill
-                alt="Cars"
-                className="object-cover"
-              />
+              <Image src={car.image} fill alt="Cars" className="p-6" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{car.title}</h2>
