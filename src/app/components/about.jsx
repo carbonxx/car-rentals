@@ -22,15 +22,30 @@ function About() {
         </div>
         <div className="flex flex-col gap-8 items-center md:justify-center">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
-            fuga recusandae consequuntur eveniet a tenetur aliquam. Minima
-            asperiores deleniti saepe iure officiis repudiandae doloremque ea.
-            Consectetur voluptas velit nam voluptates enim blanditiis temporibus
-            vitae quasi cumque fugit provident ex eaque repellendus quis, beatae
-            animi quam natus harum laudantium consequatur reiciendis!
+            Welcome to Ganesh Self Driving Cars, your premier choice for
+            hassle-free car rental services in Mangalore. Located near KRR Road,
+            Karangalapady, Bunts Hostel, Mangaluru - 575003, we pride ourselves
+            on offering a diverse range of vehicles, from economical options to
+            luxurious rides, tailored to suit your needs.
           </p>
-          <Timeline />
-          <div className="flex flex-col gap-2">
+          <p>
+            At Ganesh Self Driving Cars, we understand the importance of
+            convenience and reliability when it comes to transportation. Whether
+            you&apos;re exploring the vibrant streets of Mangalore or embarking
+            on a scenic journey along the coastal roads, our self-driving car
+            rental services provide you with the freedom and flexibility to
+            travel at your own pace.
+          </p>
+
+          <p>
+            Our commitment to customer satisfaction is at the core of everything
+            we do. With a focus on cleanliness, safety, and superior customer
+            service, we strive to ensure that your rental experience exceeds
+            your expectations every time.
+          </p>
+
+          {/* <Timeline /> */}
+          <div className="flex flex-col xl:flex-row gap-8 mr-auto">
             <p className="text-center">Reach out on our socials:</p>
             <ul className="flex gap-8">
               <li>

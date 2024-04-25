@@ -14,7 +14,7 @@ export default function Home() {
       <HowItWorks />
       <OurCars />
       <TopRentedCars />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </main>
   )
 }

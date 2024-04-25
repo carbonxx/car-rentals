@@ -22,7 +22,7 @@ export const topRentedCars = [
     features: [
       "Smart Hybrid Technology",
       "Rear Parking Camera",
-      "Apple CarPlay and Android Auto Compatibility",
+      "Android Auto Compatibility",
     ],
   },
   {

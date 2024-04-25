@@ -31,7 +31,7 @@ export const cars = [
     features: [
       "Automatic Climate Control",
       "LED Projector Headlamps",
-      "SmartPlay Studio Infotainment System",
+      "Studio Infotainment System",
     ],
   },
   {
@@ -65,8 +65,8 @@ export const cars = [
       "Compact SUV with rugged styling and modern features, perfect for urban adventures.",
     features: [
       "Harrier-Inspired Design",
-      "7-inch Touchscreen Infotainment System",
-      "Rear Parking Sensors with Camera",
+      "Touchscreen Infotainment System",
+      "Rear Parking Camera",
     ],
   },
   {
@@ -77,7 +77,7 @@ export const cars = [
     description:
       "Compact crossover with modern design and advanced features, offering a comfortable ride for urban adventures.",
     features: [
-      "7-inch Touchscreen Infotainment System",
+      "Touchscreen Infotainment System",
       "Automatic Climate Control",
       "LED Daytime Running Lights",
     ],
@@ -92,7 +92,7 @@ export const cars = [
     features: [
       "Smart Hybrid Technology",
       "Rear Parking Camera",
-      "Apple CarPlay and Android Auto Compatibility",
+      "Android Auto Compatibility",
     ],
   },
   {
@@ -103,7 +103,7 @@ export const cars = [
     description:
       "Elegant sedan offering a blend of luxury, comfort, and fuel efficiency, ideal for long drives and daily commutes.",
     features: [
-      "Projector Headlamps with LED DRLs",
+      "Projector Headlamps",
       "Leather Upholstery",
       "Smartplay Infotainment System",
     ],
@@ -141,11 +141,7 @@ export const cars = [
     rate: 3100,
     description:
       "Compact SUV with rugged styling, powerful engine options, and advanced safety features, perfect for urban and off-road adventures.",
-    features: [
-      "Ford SYNC 3 Infotainment System",
-      "Electric Sunroof",
-      "6 Airbags",
-    ],
+    features: ["Ford SYNC 3 System", "Electric Sunroof", "6 Airbags"],
   },
   {
     id: 13,
@@ -155,7 +151,7 @@ export const cars = [
     description:
       "Practical hatchback with spacious cabin, fuel-efficient engine, and easy maneuverability, ideal for city driving.",
     features: [
-      "Smartplay Studio Infotainment System",
+      "Studio Infotainment System",
       "Dual Front Airbags",
       "Rear Parking Sensors",
     ],
@@ -180,10 +176,6 @@ export const cars = [
     rate: 5500,
     description:
       "Iconic luxury sedan known for its dynamic performance, luxurious interior, and cutting-edge technology, ideal for executive travel.",
-    features: [
-      "BMW Live Cockpit Professional",
-      "Gesture Control",
-      "Parking Assistant Plus",
-    ],
+    features: ["BMW Live Cockpit", "Gesture Control", "Parking Assistant Plus"],
   },
 ]

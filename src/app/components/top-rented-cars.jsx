@@ -4,8 +4,8 @@ import Link from "next/link"
 
 function TopRentedCars() {
   return (
-    <div className="w-full bg-accent py-24" id="top-rented-cars">
-      <h2 className="font-bold text-center text-secondary text-4xl tracking-tight sm:text-5xl">
+    <div className="w-full bg-secondary py-24" id="top-rented-cars">
+      <h2 className="font-bold text-center text-accent text-4xl tracking-tight sm:text-5xl">
         Top Rented Cars
       </h2>
       <div className="container grid md:grid-cols-3 gap-x-4 gap-y-8 mx-auto pt-16">

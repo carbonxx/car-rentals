@@ -22,17 +22,14 @@ function OurCars() {
             className="w-full"
           />
         </div>
-        <div className="flex flex-col gap-8 w-11/12 md:py-16 items-center justify-center">
+        <div className="flex flex-col gap-8 w-11/12 md:py-16 items-start">
           <div className="flex gap-4 justify-center items-center">
             <div className="bg-accent p-4 rounded-lg">
               <LucideUserCheck2 className="w-12 h-12 text-white" />
             </div>
             <div className="flex flex-col gap-1">
               <p className="text-xl font-bold">Customer Support</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, aliquam!
-              </p>
+              <p>Dedicated assistance whenever you need it most.</p>
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
@@ -41,10 +38,7 @@ function OurCars() {
             </div>
             <div className="flex flex-col gap-1">
               <p className="text-xl font-bold">Available at many locations</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, aliquam!
-              </p>
+              <p>Conveniently located to serve you better.</p>
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
@@ -54,8 +48,8 @@ function OurCars() {
             <div className="flex flex-col gap-1">
               <p className="text-xl font-bold">Clean Vehicles</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, aliquam!
+                Enjoy clean and comfortable rides for a seamless journey every
+                time.
               </p>
             </div>
           </div>
@@ -66,8 +60,7 @@ function OurCars() {
             <div className="flex flex-col gap-1">
               <p className="text-xl font-bold">Free Cancelation</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, aliquam!
+                Flexible policies for hassle-free adjustments to your plans.
               </p>
             </div>
           </div>
