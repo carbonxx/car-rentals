@@ -7,7 +7,7 @@ export const cars = [
     description:
       "Compact hatchback with modern styling and practical features.",
     features: [
-      "Touchscreen Infotainment System",
+      "Touchscreen System",
       "Digital Instrument Cluster",
       "Remote Keyless Entry",
     ],
@@ -65,7 +65,7 @@ export const cars = [
       "Compact SUV with rugged styling and modern features, perfect for urban adventures.",
     features: [
       "Harrier-Inspired Design",
-      "Touchscreen Infotainment System",
+      "Touchscreen System",
       "Rear Parking Camera",
     ],
   },
@@ -77,7 +77,7 @@ export const cars = [
     description:
       "Compact crossover with modern design and advanced features, offering a comfortable ride for urban adventures.",
     features: [
-      "Touchscreen Infotainment System",
+      "Touchscreen System",
       "Automatic Climate Control",
       "LED Daytime Running Lights",
     ],

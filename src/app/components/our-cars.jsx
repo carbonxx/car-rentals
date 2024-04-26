@@ -9,7 +9,7 @@ import Image from "next/image"
 function OurCars() {
   return (
     <section className="bg-white text-primary py-24">
-      <h2 className="font-bold text-center text-primary text-4xl tracking-tight sm:text-5xl">
+      <h2 className="mx-2 font-bold text-center text-primary text-4xl tracking-tight sm:text-5xl">
         Best Service and Cars
       </h2>
       <div className="container md:mx-auto place-items-center grid md:grid-cols-[60%_40%] gap-8">
@@ -28,8 +28,10 @@ function OurCars() {
               <LucideUserCheck2 className="w-12 h-12 text-white" />
             </div>
             <div className="flex flex-col gap-1">
-              <p className="text-xl font-bold">Customer Support</p>
-              <p>Dedicated assistance whenever you need it most.</p>
+              <p className="text-base md:text-xl font-bold">Customer Support</p>
+              <p className="text-sm md:text-base">
+                Dedicated assistance whenever you need it most.
+              </p>
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
@@ -37,8 +39,12 @@ function OurCars() {
               <LocateFixedIcon className="w-12 h-12 text-white" />
             </div>
             <div className="flex flex-col gap-1">
-              <p className="text-xl font-bold">Available at many locations</p>
-              <p>Conveniently located to serve you better.</p>
+              <p className="text-base md:text-xl font-bold">
+                Available at many locations
+              </p>
+              <p className="text-sm md:text-base">
+                Conveniently located to serve you better.
+              </p>
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
@@ -46,8 +52,8 @@ function OurCars() {
               <HeartHandshake className="w-12 h-12 text-white" />
             </div>
             <div className="flex flex-col gap-1">
-              <p className="text-xl font-bold">Clean Vehicles</p>
-              <p>
+              <p className="text-base md:text-xl font-bold">Clean Vehicles</p>
+              <p className="text-sm md:text-base">
                 Enjoy clean and comfortable rides for a seamless journey every
                 time.
               </p>
@@ -58,8 +64,8 @@ function OurCars() {
               <X className="w-12 h-12 text-white" />
             </div>
             <div className="flex flex-col gap-1">
-              <p className="text-xl font-bold">Free Cancelation</p>
-              <p>
+              <p className="text-base md:text-xl font-bold">Free Cancelation</p>
+              <p className="text-sm md:text-base">
                 Flexible policies for hassle-free adjustments to your plans.
               </p>
             </div>

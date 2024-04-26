@@ -20,11 +20,11 @@ function About() {
             className="h-96 w-full object-cover rounded-lg"
           />
         </div>
-        <div className="flex flex-col gap-8 items-center md:justify-center">
+        <div className="text-sm md:text-base flex flex-col gap-8 items-center md:justify-center">
           <p>
             Welcome to Ganesh Self Driving Cars, your premier choice for
             hassle-free car rental services in Mangalore. Located near KRR Road,
-            Karangalapady, Bunts Hostel, Mangaluru - 575003, we pride ourselves
+            Karangalapady, Bunts Hostel, Mangalore - 575003, we pride ourselves
             on offering a diverse range of vehicles, from economical options to
             luxurious rides, tailored to suit your needs.
           </p>
@@ -46,7 +46,7 @@ function About() {
 
           {/* <Timeline /> */}
           <div className="flex flex-col xl:flex-row gap-8 mr-auto">
-            <p className="text-center">Reach out on our socials:</p>
+            <p className="md:text-center">Reach out on our socials:</p>
             <ul className="flex gap-8">
               <li>
                 <Link href={twitter}>

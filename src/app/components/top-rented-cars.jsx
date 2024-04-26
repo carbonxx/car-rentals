@@ -5,7 +5,7 @@ import Link from "next/link"
 function TopRentedCars() {
   return (
     <div className="w-full bg-secondary py-24" id="top-rented-cars">
-      <h2 className="font-bold text-center text-accent text-4xl tracking-tight sm:text-5xl">
+      <h2 className="mx-2 font-bold text-center text-accent text-4xl tracking-tight sm:text-5xl">
         Top Rented Cars
       </h2>
       <div className="container grid md:grid-cols-3 gap-x-4 gap-y-8 mx-auto pt-16">
@@ -22,7 +22,10 @@ function TopRentedCars() {
               <p>{car.description}</p>
               <div className="py-2 flex gap-2 flex-wrap">
                 {car.features.map((feature) => (
-                  <div className="badge badge-outline" key={feature}>
+                  <div
+                    className="text-xs md:text-base badge badge-outline"
+                    key={feature}
+                  >
                     {feature}
                   </div>
                 ))}
