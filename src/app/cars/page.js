@@ -1,6 +1,10 @@
 import { cars } from "@/app/lib/cars"
 import Image from "next/image"
 
+export const metadata = {
+  title: "Cars",
+}
+
 export default function CarsPage() {
   return (
     <main className="py-28 bg-white">
