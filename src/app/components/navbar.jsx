@@ -25,7 +25,7 @@ export default function Navbar() {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar bg-accent">
+        <div className="w-full navbar bg-accent ">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -53,7 +53,7 @@ export default function Navbar() {
             </p>
           </div>
           <div className="flex-none hidden lg:block">
-            <ul className="menu menu-horizontal items-center">
+            <ul className="menu menu-horizontal items-center py-0">
               {/* Navbar menu content here */}
               <li className="cursor-pointer hover:underline underline-offset-4 transition-all">
                 <Link href="/">Home</Link>
